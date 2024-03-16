@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDW4</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        
-    </style>
 </head>
 
 <body>
     <div class="BGimg">
-    <div class="Notes">
-        <p class="poppins-medium">VALORANT</p>
-        <div class="image-center">
-            <img src="aset/vandal.jpg" alt="Vandal Image">
-            <img src="aset/3.jpg" alt="Image 3">
+        <div class="container">
+            <div class="Notes">
+                <p class="poppins-medium">VALORANT</p>
+                <div class="image-center">
+                    <img src="aset/vandal.jpg" alt="Vandal Image">
+                    <img src="aset/3.jpg" alt="Image 3">
+                    <img src="aset/pack.png" alt="Pack Image">
+                </div>
+                <p class="txt-waktu" id="hasil"></p>
+                <br>
+                <div class="poppins-regular">INI ADALAH SENJATA :</div>
+                <ul>
+                    <li>VANDAL</li>
+                    <li>PHANTOM</li>
+                    <li>ODIN</li>
+                    <li>SHERIF</li>
+                </ul>
+                <br>
+                <button onclick="show()">Beli</button>
+            </div>
         </div>
-
-        <p class="txt-waktu" id="hasil"></p>
-        <br>
-        <div class="poppins-regular">INI ADALAH SENJATA :</div>
-        <ul>
-            <li>VANDAL</li>
-            <li>PHANTOM</li>
-            <li>ODIN</li>
-            <li>SHERIF</li>
-        </ul>
-        <br>
-        <button style="cursor: pointer;" onclick="show()">Beli</button>
-    </div>
     </div>
 
     <script>
@@ -41,7 +40,6 @@
         }
 
         updateClock();
-        // Panggil updateClock setiap detik
         setInterval(updateClock, 1000);
     </script>
     <script src="script.js"></script>
